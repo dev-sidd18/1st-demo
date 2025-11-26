@@ -1,0 +1,21 @@
+.container{
+background-color: white;
+padding: 10px 20px;
+display: flex;
+gap: 10px;
+flex-direction: column-reverse;  
+margin: 10px;
+border-radius: 8px;
+font-weight: bold;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: blueviolet;
+}
