@@ -1,0 +1,23 @@
+.items{
+    padding: 20px;
+    border: 2px solid black;
+    flex-direction: row;
+    display: flex;  
+    gap: 350px;
+}
+.iphone{
+    display: inline;
+    border: 2px solid black ;
+    padding: 20px 40px;
+
+}
+.lap{
+    display: inline;
+    border: 2px solid black;
+    padding: 20px;
+}
+.bud{
+    display: inline;
+    border: 2px solid black;
+    padding: 20px;
+}

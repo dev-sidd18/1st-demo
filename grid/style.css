@@ -1,0 +1,10 @@
+.container >div{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 1px 1px 1px;
+    background-color: rgb(187, 130, 55);
+    gap: 10px;
+    border: 2px solid black;
+
+}
