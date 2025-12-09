@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,16 +8,138 @@
 <body>
     <link rel="stylesheet" href="style.css">
 <div class="items">
-        <div class="iphone">
-        <img src="iphone.jpg" height="200" alt="">
-        <h3>Apple iphone 14(128GB)</h3>
+        <div class="product">
+            <img src="iphone.jpg" height="200" alt="">
+            <h3>Apple iphone 14(128GB)</h3>
+            <p>Fast and reliable laptop</p>
+        <div class="price">&#8377;99</div>
+            <a href="#" class="btn">Buy now </a>
         </div>
-        <div class="lap">
-    <img src="lap.jpg" height="200" alt="">
+        <div class="product">
+        <img src="lap.jpg" height="200" alt="">
+        <h3>HP laptop</h3>
+        <p>Fast and reliable</p>
+    <div class="price">&#8377;145</div>
+    <a href="#" class="btn">Buy now</a>
     </div>
-    <div class="bud">
+    <div class="product">
     <img src="bud.jpg" height="200" alt="">
+    <h3>airburds </h3>
+    <p>Best quality sound </p>
+    <div class="price">&#8377;24</div>
+    <a href="#" class="btn">Buy now</a>
     </div>
     </div>
 </body>
+</html> -->
+
+
+
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Responsive Product Grid</title> 
+  <style> 
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      background: #f5f5f5; 
+      padding: 20px; 
+    } 
+ 
+    h2 { 
+      text-align: center; 
+      margin-bottom: 20px; 
+    }
+      /* Product grid */ 
+    .grid { 
+      display: grid; 
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */ 
+      gap: 20px; 
+    } 
+ 
+    /* Product card */ 
+    .card { 
+      background: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      padding: 55px; 
+      text-align: center; 
+    } 
+ 
+    .card img { 
+      width: 100%; 
+      height: 150px; 
+      object-fit: cover; 
+      border-radius: 6px; 
+      margin-bottom: 10px; 
+    } 
+ 
+    .card h3 { 
+      font-size: 18px; 
+      margin: 8px 0; 
+    } 
+ 
+    .card p { 
+      font-size: 14px; 
+      color: #555; 
+      margin: 4px 0; 
+    } 
+ 
+    .price { 
+      font-weight: bold; 
+      color: #007bff; 
+    } 
+ 
+ (max-width: 1024px) { 
+      .grid { 
+        grid-template-columns: repeat(2, 1fr); 
+      } 
+    } 
+ 
+    @media (max-width: 600px) { 
+      .grid { 
+        grid-template-columns: 1fr; 
+      } 
+    } 
+  </style> 
+</head> 
+<body> 
+  <h2>Responsive Product Grid</h2> 
+<div class="grid"> 
+    <div class="card"> 
+      <img src="iphone.jpg" alt="i-Phone 14"> 
+      <h3>i-phone</h3> 
+      <p>Premium design with powerful performance</p> 
+      <p class="price">₹11,499</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="lap.jpg" alt="Product 2"> 
+      <h3>HP PAVILLION</h3> 
+      <p>Intel Core i5 Processor 8 256GB</p> 
+      <p class="price">₹799</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="micro.jpg" alt="Product 3"> 
+      <h3>MICROWAVE</h3> 
+      <p>20 Litre Capacity
+
+800 Watt Power Output</p> 
+      <p class="price">₹1,999</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="image.png" alt="Product 4"> 
+      <h3>Product 4</h3> 
+      <p>1.5 Ton Capacity
+
+5 Star Energy Rating</p> 
+      <p class="price">₹9999</p> 
+    </div> 
+  </div> 
+</body> 
 </html>
