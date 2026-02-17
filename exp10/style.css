@@ -4,16 +4,7 @@
   box-sizing: border-box; 
 } 
 .navbar { 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
-  background-color: #222; 
-  color: white; 
-  padding: 15px 20px; 
-} .logo { 
-  font-size: 1.5rem; 
-  font-weight: bold; 
-}  
+  c
 .nav-links { 
   display: flex; 
   list-style: none; 

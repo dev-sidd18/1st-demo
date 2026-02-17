@@ -3,11 +3,11 @@
   width: 600px;
   margin: 40px auto;
   padding: 15px;
-  border: 2px solid black; /* 🔹 black border around image and text */
+  border: 2px solid black;
   border-radius: 20px;
 }
 button{
-    background-color: rgb(255, 0, 0);
+   background-color: rgb(255, 0, 0);
    width: 80px; 
    margin: 4px auto;
    padding: 6px;
